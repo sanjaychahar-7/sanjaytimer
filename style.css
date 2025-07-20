@@ -1,0 +1,268 @@
+body{
+     text-align: center; 
+    /* justify-content: center; */
+    background-color: #131313;
+    /* background-image: url('New folder/button-859346_1280.png'); */
+    
+    /* height: 400px;
+    width: 400px; */
+
+
+}
+.personal-info{
+    
+    height: 10%;
+     justify-content:center ;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+button{
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+a{
+    transition: 0.2;
+    color: #131313;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    
+    
+}
+a:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+.navbar{
+    background-image: url('New folder/drop-545377_1920.jpg');
+    
+    
+    padding: 4px;
+    
+    
+    
+    
+}
+
+.my-section{
+    background-color: blueviolet;
+     background-image: url('New folder/stopwatch-7006359_1920.png'); 
+    
+    /* width: 101%; */
+    
+    
+  
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    padding-top: 7px;
+    color: #f5f5f5;
+}
+
+input{
+    font-size: 16px;
+     border: 2px solid white; 
+    border-radius: 4px;
+    padding: 10px;
+    margin: 2px;
+    
+    font-weight: 200;
+}
+
+button{
+    /* border: 2px solid white; */
+    background-image: url('New folder/button-859346_1280.png');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 4px;
+    min-width: 120px;
+    padding: 10px;
+    margin: 20px 5px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    border: 2px solid white;
+    /* font-weight: 100; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: -10px;
+}
+
+.heading{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 3px;
+    padding-top: 14px;
+    font-weight: 200;
+    
+
+
+}
+
+.box{
+    border: 2px solid #f5f5f5;
+    border-radius: 4px;
+    margin: 12px;
+    min-width: 120px;
+    min-height: 50px; 
+    background-color: #f5f5f5;
+    padding-top: 25px;
+    
+}
+
+/* Responsive styles */
+
+
+/* @media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+     .last{
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+    
+}  */
+
+
+.last{
+    
+    background-image: url('New folder/woman-1837158_1920.jpg');
+    padding: 2px;
+
+    
+}
+
+.last p{
+    font-size: 20px;
+}
+
+.parent{
+    display: flex;
+    
+     justify-content: space-between;  
+    
+}
+
+
+.section-left{
+    margin: 40px;
+     /* justify-content: center;  */
+    
+   width: 800px;
+   height: 350px;
+    
+    
+}
+.section-right{
+    
+    width: 400px;
+    
+
+    
+    
+    
+
+} 
+img{
+    width: 300px;
+    height: 240px;
+}
+
+.end{
+    background-image: url('New folder/drop-545377_1920.jpg');
+   
+}
+
+@media (max-width: 1024px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-left, .section-right {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .section-right img {
+        width: 90%;
+        height: auto;
+    }
+
+    .personal-info {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        min-width: 80px;
+        min-height: 40px;
+        margin: 8px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .navbar h1 {
+        font-size: 30px;
+    }
+
+    .section-left h1,
+    .section-left h2 {
+        font-size: 24px;
+    }
+
+    .section-left p {
+        font-size: 18px;
+    }
+
+    footer h1 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    select {
+        font-size: 14px;
+    }
+}
